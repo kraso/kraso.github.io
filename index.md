@@ -2,8 +2,8 @@
 layout: default
 ---
 
-[yes]: https://github.com/Zsedo/zsedo.github.io/blob/master/pictures/yes.png "Yes"
-[no]: https://github.com/Zsedo/zsedo.github.io/blob/master/pictures/no.png "No"
+[yes]: https://raw.githubusercontent.com/Zsedo/zsedo.github.io/master/pictures/yes.png "Yes"
+[no]: https://raw.githubusercontent.com/Zsedo/zsedo.github.io/master/pictures/no.png "No"
 ## Billiards!
 
 {{ site.welcome_text }}
