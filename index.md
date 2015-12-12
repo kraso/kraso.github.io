@@ -2,8 +2,6 @@
 layout: default
 ---
 
-## Hello there!
+## Billiards!
 
 {{ site.welcome_text }}
-
-Support us with 3 clicks now!
