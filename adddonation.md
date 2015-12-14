@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 ---
 
 <h1>Nova donacija</h1>
