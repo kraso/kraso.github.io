@@ -6,6 +6,5 @@ layout: default
 
 Donator | Znesek
 --- | ---
-Oseba 1 | 100
-Oseba 2 | 20
-Oseba 3 | 55
+{% for vplacilo in site.data.vplacila%}
+{{ vplacilo.ime }} | {{ vplacilo.znesek }}

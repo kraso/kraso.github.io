@@ -2,8 +2,9 @@
 layout: default
 ---
 
-[yes]: <img src="https://raw.githubusercontent.com/Zsedo/zsedo.github.io/master/pictures/yes.png" alt="Yes" width="100px" height="100px">
-[no]: <img src="https://raw.githubusercontent.com/Zsedo/zsedo.github.io/master/pictures/no.png" alt="Yes" width="100px" height="100px">
+[yes]: ![Yes]({{ site.url }}/pictures/yes_small.png)
+[no]: ![No]({{ site.url }}/pictures/no_small.png)
+
 ## Billiards!
 
 {{ site.welcome_text }}
