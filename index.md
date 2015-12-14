@@ -12,11 +12,11 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{% page.zbranDenar=0 %}
+{% site.zbranDenar=0 %}
 {% for vplacilo in site.data.vplacila %}
-{%   page.zbranDenar = page.zbranDenar + vplacilo.znesek %}
+{%   site.zbranDenar = site.zbranDenar + vplacilo.znesek %}
 {% endfor %}
-{{ page.zbranDenar }}
+{{ site.zbranDenar }}
 
 ## Milestones:
 
