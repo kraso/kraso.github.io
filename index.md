@@ -12,7 +12,7 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{{ site.zbran_denar }}
+{{ site.zbranDenar }}
 
 ## Milestones:
 
