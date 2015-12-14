@@ -2,8 +2,8 @@
 layout: default
 ---
 
-[yes]: ![Yes]({{ site.url }}/pictures/yes_small.png)
-[no]: ![No]({{ site.url }}/pictures/no_small.png)
+[yes]: {{ site.url }}pictures/yes_small.png "Yes"
+[no]: {{ site.url }}pictures/no_small.png "No"
 
 ## Billiards!
 
@@ -15,8 +15,8 @@ layout: default
 ## Milestones:
 |Completed | Znesek | Miza |
 | --- | --- | --- |
-| [yes] | 500 | Miza 1 |
-| [yes] | 1000 | Miza 2 |
-| [no] | 2000 | Miza 3 |
+| ![][yes] | 500 | Miza 1 |
+| ![][yes] | 1000 | Miza 2 |
+| ![][no] | 2000 | Miza 3 |
 
 [Donacije](../donacije)
