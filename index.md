@@ -12,6 +12,8 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
+{{ site.zbran_denar }}
+
 ## Milestones:
 
 |Completed | Znesek | Miza |
