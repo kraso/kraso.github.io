@@ -13,8 +13,9 @@ layout: default
 {{ site.zbran_denar }}
 
 ## Milestones:
+
 |Completed | Znesek | Miza |
-| --- | --- | --- |
+| :---: | :---: | :---: |
 | ![][yes] | 500 | Miza 1 |
 | ![][yes] | 1000 | Miza 2 |
 | ![][no] | 2000 | Miza 3 |
