@@ -12,10 +12,10 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{% zbranDenar=0
-for vplacilo in site.data.vplacila
-  zbranDenar = zbranDenar + vplacilo.znesek
-endfor %}
+{% zbranDenar=0 %}
+{% for vplacilo in site.data.vplacila %}
+{%   zbranDenar = zbranDenar + vplacilo.znesek %}
+{% endfor %}
 {{ zbran.denar }}
 
 ## Milestones:
