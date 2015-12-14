@@ -4,7 +4,7 @@ layout: post
 
 <h1>Nova donacija</h1>
 
-<form method="POST" action={{ site.thankyou_page }}>
+<form method="POST" action=(../thankyou)>
     <table style="width:100%">
         <tr>
             <th>Ime</th>
