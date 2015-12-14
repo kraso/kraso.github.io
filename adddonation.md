@@ -5,7 +5,7 @@ layout: default
 <h1>Nova donacija</h1>
 
 <form method="POST">
-    <table style="width:50%">
+    <table style="width:100%">
         <tr>
             <th>Ime</th>
             <th><input type="text" name="Name"></th> 
