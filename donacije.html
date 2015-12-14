@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>Donatorji</h1>
+
+<table style="width:100%">
+{% for vplacilo in site.data.vplacila %}
+    <tr>
+        <td>{{ vplacilo.ime }}</td>
+        <td>{{ vplacilo.znesek }}</td>
+    </tr>
+{% endfor %}
+</table>
