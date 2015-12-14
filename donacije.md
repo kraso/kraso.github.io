@@ -8,3 +8,4 @@ Donator | Znesek
 --- | ---
 {% for vplacilo in site.data.vplacila %}
 {{ vplacilo.ime }} | {{ vplacilo.znesek }}
+{% endfor %}
