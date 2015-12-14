@@ -16,7 +16,7 @@ layout: default
 {% for vplacilo in site.data.vplacila %}
 {%   zbranDenar = zbranDenar + vplacilo.znesek %}
 {% endfor %}
-{{ zbran.denar }}
+{{ zbranDenar }}
 
 ## Milestones:
 
