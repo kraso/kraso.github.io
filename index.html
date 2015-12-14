@@ -12,7 +12,7 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{% assign zbranDenar = 0 %}
+{% assign zbranDenar = 10 %}
 {% for vplacilo in site.data.vplacila %}
   {% assign zbranDenar = zbranDenar + vplacilo.znesek %}
 {% endfor %}
