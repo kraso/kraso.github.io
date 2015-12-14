@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 <?php
 
 $name=$_POST["name"];
@@ -19,9 +23,5 @@ $fp = fopen("_data/vplacila.csv","a"); // $fp is now the file pointer to file $f
     }
 }
 ?>
-
----
-layout: default
----
 
 Hvala
