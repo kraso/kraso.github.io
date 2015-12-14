@@ -12,12 +12,6 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{% site.zbranDenar=0 %}
-{% for vplacilo in site.data.vplacila %}
-{%   site.zbranDenar = site.zbranDenar + vplacilo.znesek %}
-{% endfor %}
-{{ site.zbranDenar }}
-
 ## Milestones:
 
 |Completed | Znesek | Miza |
