@@ -12,8 +12,11 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
-{% zbranDenar = 50 %}
-{{ site.zbranDenar }}
+{% assign zbranDenar = 0 %}
+{% for vplacilo in site.data.vplacila %}
+  {% assign zbranDenar = zbranDenar + vplacilo.znesek %}
+{% endfor %}
+{{ zbranDenar }}
 
 ## Milestones:
 
