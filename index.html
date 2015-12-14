@@ -14,7 +14,7 @@ layout: default
 
 {% assign zbranDenar = 0 %}
 {% for vplacilo in site.data.vplacila %}
-  {% assign zbranDenar = zbranDenar + vplacilo.znesek %}
+{% assign zbranDenar = zbranDenar + vplacilo.znesek %}
 {% endfor %}
 {{ zbranDenar }}
 
