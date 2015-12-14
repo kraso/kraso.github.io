@@ -4,7 +4,7 @@ layout: default
 
 <h1>Nova donacija</h1>
 
-<form method="post" action="thankyou.md">
+<form method="post" action="thankyou">
     <table style="width:100%">
         <tr>
             <th>Ime</th>
