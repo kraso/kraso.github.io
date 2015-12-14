@@ -5,8 +5,19 @@ layout: default
 <h1>Nova donacija</h1>
 
 <form method="POST">
-    Ime: <input type="text" name="Name"><br>
-    Firma: <input type="text" name="Firm"><br>
-    Znesek: <input type="number" name="Value"><br>
+    <table style="width:50%">
+        <tr>
+            <th>Ime</th>
+            <th><input type="text" name="Name"></th> 
+        </tr>
+        <tr>
+            <th>Firma</th>
+            <th><input type="text" name="Firm"></th> 
+        </tr>
+        <tr>
+            <th>Znesek</th>
+            <th><input type="number" name="Value"></th> 
+        </tr>
+    </table>
     <input type="submit" value="Donate">
 </form>
