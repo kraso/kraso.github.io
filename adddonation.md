@@ -4,7 +4,7 @@ layout: default
 
 <h1>Nova donacija</h1>
 
-<form method="POST" action="../inset.php">
+<form method="post" action="insert.php">
     <table style="width:100%">
         <tr>
             <th>Ime</th>
