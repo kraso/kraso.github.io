@@ -12,6 +12,7 @@ layout: default
 ## Trenutno zbran denar
 {{ site.zbran_denar }}
 
+{% site.zbranDenar = 50 %}
 {{ site.zbranDenar }}
 
 ## Milestones:
